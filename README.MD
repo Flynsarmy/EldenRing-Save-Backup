@@ -2,6 +2,8 @@
 
 This script backs up all Elden Ring saves every 30 minutes while the game is running. Each backup is saved to a *backup-YYYY_MM_DD__HH_MM.zip* file in your backups folder.
 
+Elden Ring saves all character backups to *%APPDATA%\EldenRing* folder. This script simply zips the folder on a timer.
+
 ## Installation
 
 * `git clone` or download this repo and save it to a file on your computer.
